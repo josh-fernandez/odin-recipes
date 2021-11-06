@@ -1,0 +1,61 @@
+/* Universal Selector */
+* {
+    background-color: rgb(255, 244, 219);
+    font-family: "Lucida Handwriting", "z003",serif;
+}
+
+/* Type Selector */
+h1 {
+    color: green;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+/* ID Selector */
+#front-page {
+    text-align: center;
+}
+
+/* Grouping Selector */
+h2, h3 {
+    color: indianred;
+}
+
+h2 {
+    font-weight: 900;
+}
+
+/* Class Selector */
+.ingredients {
+    color: rgb(129, 0, 129);
+}
+
+.steps {
+    color: rgb(0, 56, 129);
+}
+
+.recipes {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+/* Descendant Combinator */
+.recipes li {
+    background-color: rgb(181, 255, 185);
+    color: yellowgreen;
+}
+
+.recipes a {
+    color: rgb(0, 80, 0);
+    background-color: rgb(181, 255, 185);
+}
+
+img {
+    border-radius: 50%;
+    border-width: 25px;
+    border-color: yellowgreen;
+    border-style: outset;
+}
